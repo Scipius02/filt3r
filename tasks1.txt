@@ -1,0 +1,21 @@
+the first thing we want to do is build the scaffolding for our website
+
+learn what needs to be a part of the .vue and what can be imported as a component to be rendered
+across pages
+
+h2: title for particular view
+p: text for view
+button 1, 2, 3: toggle between p to be rendered in the view
+button 4: reactive button based on state of view
+  if 1: button 4 enables full editing with max char count
+  imports the summary from smmry.com as template text
+  if 2: can only delete + revert
+  if 3: can only highlight, comment on original text
+
+
+
+
+route to static pages
+  about, blog, 
+
+login page
