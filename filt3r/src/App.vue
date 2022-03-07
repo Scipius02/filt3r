@@ -2,8 +2,7 @@
   <div>
     <SiteHeader />
     <main>
-      <h1>Hello</h1>
-      <p>Hello Hello</p>
+      <MainLayout />
     </main>
     <SiteFooter />
   </div>
@@ -12,12 +11,14 @@
 <script>
 import SiteHeader from './components/SiteHeader.vue';
 import SiteFooter from './components/SiteFooter.vue';
+import MainLayout from './components/MainLayout.vue';
 
 export default {
   name: 'App',
   components: {
     SiteHeader,
     SiteFooter,
+    MainLayout,
   }
 };
 </script>
@@ -28,7 +29,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #2c3e50;
+  color:antiquewhite;
 }
 
 @import "./styles/bootstrap.css";

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-dark">
+  <nav class="navbar navbar-dark" id="site-header">
     <div class="container">
       <a class="navbar-brand" link="#">App</a>
       <!--<router-link class="navbar-brand" :to="{ name: 'home' }">
@@ -96,6 +96,6 @@ export default {
 
 <style>
 .navbar{
-  background:#5DBAE8;
+  background:#23395d;
 }
 </style>
