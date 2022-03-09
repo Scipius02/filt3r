@@ -20,16 +20,17 @@ export default {
 <style>
 /* is not properly sticking to bottom of screen when insufficient elements on page */
 #site-footer{
-  background: #23395d;
-  position: sticky;
-  bottom: 0;
-  width: 100%;
+  display: flex;
 }
 
 #footer-container {
   display: flex;
   align-content: center;
   justify-content: center;
+  background: #23395d;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
 }
 
 #footer-ul{

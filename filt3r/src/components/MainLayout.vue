@@ -18,9 +18,5 @@
   .main {
     display: flex;
   }
-
-  *{
-    border: 2px solid red;
-  }
   
 </style>
