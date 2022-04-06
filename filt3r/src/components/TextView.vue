@@ -81,7 +81,7 @@ export default {
   }
 
   .f3-button {
-    margin-bottom: 5px;
+    margin-bottom: 5px;   /* state memory: if 1 is pressed, it should retain pressed outline */
   }
 
 </style>
